@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Taha Shaheen
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
