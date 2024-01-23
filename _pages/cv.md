@@ -4,8 +4,9 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: taha_shaheen_cv.pdf
+# CV updated 17th Jan 2024
+description: Taha Shaheen's Curriculum vitae.
 toc:
-  sidebar: left
+  sidebar: right
 ---
