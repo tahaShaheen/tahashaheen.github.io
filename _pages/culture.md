@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Notable projects that I am proud of
+title: culture
+permalink: /culture/
+description: An assortment of things i have done (not necessarily academic in nature)
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [1947 Partition Archive, Cultural Exchange]
 horizontal: false
 ---
 
