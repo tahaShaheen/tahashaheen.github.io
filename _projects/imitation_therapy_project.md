@@ -16,7 +16,8 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Left: OpenPose detection of human skeletons and augmented Robosapien wearing a bag containing ESP8266. Right: Robosapien imitates an arm raised up
+    <b>Left:</b> OpenPose detecting human skeletons and augmented Robosapien wearing a bag containing ESP8266. <b>Right:</b> Robosapien imitates an arm raised up
 </div>
 
-Worked with a team of 4 undergraduate students and therapists from Dow IPMR to augment a <a href="https://wowwee.com/robosapien-x" target="_blank"> Robosapien by WowWee robotics</a>. Used <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="_blank"> OpenPose </a> and an <a href="https://en.wikipedia.org/wiki/NodeMCU">ESP8266 nodemcu</a>. The robot (1) copied a aingle person’s arm positions and (2) detected when a person had successfully copied the robot’s arm position.
+I collaborated with a team of four undergraduate students and therapists from <a href="https://www.duhs.edu.pk/new/ipmr-introduction/" target="_blank">Dow Institute of Physical Medicine and Rehabilitation</a> to augment a <a href=“https://wowwee.com/robosapien-x” target=”_blank"> Robosapien by WowWee robotics</a>. We used <a href=“https://github.com/CMU-Perceptual-Computing-Lab/openpose” target=“_blank”> OpenPose </a> and an <a href=“https://en.wikipedia.org/wiki/NodeMCU”>ESP8266 nodemcu</a> to enable the robot to (1) mimic a single person’s arm movements and (2) recognize when a person had successfully imitated the robot’s arm position.
+

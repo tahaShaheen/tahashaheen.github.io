@@ -7,22 +7,23 @@ importance: 2
 category: work
 ---
 
-I began to work on this project once the COVID-19 pandemic made it impossible to continue on with the <a href="#asd_bot">previous project</a>. I integrated the <a href="#robo_chotu">Robo-Chotu platform </a> 
-with the <a href="https://pypi.org/project/face-recognition/" target="_blank"> PyPI face-recognition package </a> running on a server at the backend. The robot recognized people it had met before, and remembered if they were guests or employees. It
-memorized the new faces it saw. I wrote three Android apps, one for the reception robot, one for employees, and one for management.
+This project was a continuation of my <a href="/projects/imitation_therapy_project">previous work</a> that I had to pause due to the COVID-19 pandemic. I used the <a href="#robo_chotu">Robo-Chotu platform</a> and the <a href="https://pypi.org/project/face-recognition/" target="_blank"> PyPI face-recognition package</a> to create a reception robot that could identify people by their faces. The robot could distinguish between guests and employees and remember the new faces it encountered.
 
-Once the reception bot established the identity of the person at the reception, it asked
-them who they wanted to met and their verbal answer was confirmed. This chatbot feature
-utilized Google's <a href="https://cloud.google.com/dialogflow" target="_blank"> Dialogflow</a>. A notification was sent to utilizing <a href="https://firebase.google.com/docs/cloud-messaging" target="_blank">Firebase Cloud Messaging</a>
-to the employee in question. They could then ask the robot to tell the guest where to go.
+The robot would greet the person at the reception and ask them who they wanted to meet. It would listen to their verbal response and confirm it by displaying the employee’s name on its screen. If the robot failed to recognize the response after three attempts, it would show a list of employees and ask the visitor to choose the one they wanted to see.
 
-I was assisted by very talented junior research assistants. 
+I developed three Android apps for this project: one for the reception robot, one for the employees, and one for the management. I used Google’s <a href="https://cloud.google.com/dialogflow" target="_blank"> Dialogflow</a> to create the robot’s chatbot feature. I also used <a href="https://firebase.google.com/docs/cloud-messaging" target="_blank">Firebase Cloud Messaging</a> to send notifications to the employees’ app. The employees could then select one of the available office locations for the visitor. The robot would then guide the visitor to the selected location.
+
+I had the support of some very talented junior research assistants for this project.
 
 <div class="row">
-    <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/reception_bot.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/reception_bot.jpg" title="reception robot employee side notification" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/reception_bot_demo.mp4" class="img-fluid rounded z-depth-1" controls=true%}
     </div>
 </div>
+
 <div class="caption">
-    The image shows the notification on an employee's phone after the reception-bot has recognized me. The employee can ask the robot to send me to either their office or a conference room. System worked even with terrible photos such as this one. 
+    <b>Left:</b> This image shows the notification that the employee received on their phone when the reception-bot recognized me (the visitor). The employee could choose their office or a conference room and the robot would guide me there verbally. The system was reliable even with challenging photos like this one. <b>Right:</b> The video (in Urdu) demonstrates the system in action. The robot recognized a guest, had a conversation with them, sent a notification to the employee, and then directed the guest to the desired location.
 </div>

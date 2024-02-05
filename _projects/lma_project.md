@@ -8,9 +8,7 @@ category: work
 related_publications: true
 ---
 
-This was my master's research at Kyoto University. A manuscript based on this work is under review at the ACM Transactions on Human-Robot Interaction {% cite shaheen2024lowmoralactions %}. I also presented two poster presentations based on this work.
-
-Imagine a world where people use robots to visit different places and countries. Unlike screens on wheels (telepresence robots), avatar robots can look like anything. One flaw of this is that it is not readily apparent to bystanders who the operator of the robot is. Malicious operators can use this anonymity to do low-moral actions which we define as not only illegal acts but also acts that violate norms of society.
+Imagine a world where people use robots to visit different places and countries. Unlike screens on wheels (telepresence robots), avatar robots can look like anything. One flaw of this is that it is not readily apparent to bystanders who the operator of the robot is. Malicious operators can use this anonymity to do low-moral actions, which we define as not only illegal acts but also acts that violate norms of society.
 
 We looked at what low-moral actions were possible and what prevention mechanisms were applicable for each. We identified four categories and 15 subcategories of malicious acts that can be done when a robot is limited to locomotor movement and video feed from the robot’s eyes to the operator only. Before the workshops, participants experienced avatar robots by controlling both a simulated avatar and a real avatar as a malicious anonymous operator in a variety of situations. They also experienced sharing space with an avatar controlled by a malicious anonymous operator.
 
@@ -20,7 +18,7 @@ We looked at what low-moral actions were possible and what prevention mechanisms
     </div>
 </div>
 <div class="caption">
-    Participants in an activity replicating an art or poster exhibition (onw of the two activities). The video shows one participant being forced to change their position by the avatar operated by another participant from a separate room.
+    Participants in an activity replicating an art or poster exhibition (one of the two activities). The video shows one participant being forced to change their position by the avatar operated by another participant from a separate room.
 </div>
 
 <div class="row">
@@ -32,5 +30,8 @@ We looked at what low-moral actions were possible and what prevention mechanisms
     </div>
 </div>
 <div class="caption">
-    Examples of participants doing low-moral actions in three of the five simulation environments. Left: Robot inhibits movement of the crowd in a big clothing store. Right: Robot inhibits movement of an individual in a large hall in a mall. The top down view were hidden from the participants. They only saw the Robo POV view.
+    Examples of participants doing low-moral actions in three of the five simulation environments. <b>Left:</b> Robot inhibits movement of the crowd in a big clothing store. <b>Right:</b> Robot inhibits movement of an individual in a large hall in a mall. The top-down view was hidden from the participants. They only saw the Robo POV view.
 </div>
+
+This was my master’s research at the <a href="https://www.robot.soc.i.kyoto-u.ac.jp/en/">Human-Robot Interaction Lab</a> at <a href="https://www.kyoto-u.ac.jp/en">Kyoto University</a>. A manuscript based on this work is under review at the <a href="https://dl.acm.org/journal/thri">ACM Transactions on Human-Robot Interaction</a> {% cite shaheen2024lowmoralactions %}. I also presented two poster presentations based on this work.
+

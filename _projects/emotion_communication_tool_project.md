@@ -20,7 +20,7 @@ In a pilot, we put items such as a birthday hat or a band-aid on the robot. Prog
     </div>
 </div>
 <div class="caption">
-    Left: Robo-Chotu turned off. This is the state the robot would be before the child entered the room. Right: Robo-Chotu turned on and happy. 
+    <b>Left:</b> Robo-Chotu turned off. This is the state the robot would be before the child entered the room. <b>Right:</b> Robo-Chotu turned on and happy. 
 </div>
 
 Rebuilt <a href="#bucket_chotu">Robo-Chotu (original)</a> for this task. Added natural language processing and communication
