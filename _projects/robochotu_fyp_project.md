@@ -1,80 +1,55 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Robo-Chotu
+description: Undergraduate final year project at NED University
+img: assets/img/projects/robo_chotu_fyp/chotu_ferrari.jpg
+importance: 6
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+For my final-year project, I created a social robot called Robo-Chotu (chotu means small in Urdu). This project was a requirement for my Engineering undergrad degree, which I completed with a team of three other students. Robo-Chotu could interact with people around it, deliver speeches, and host events at <a href="https://www.neduet.edu.pk/">NED University of Engineering and Technology</a> and <a href="https://www.duhs.edu.pk/">Dow University of Health Sciences</a>. We also modified the robot to interact with children on the autism spectrum. We used <a href="https://unity.com/">Unity</a> and <a href="https://developer.android.com/build/jdks">Java</a> for Android to design its animated face, control its expressions and Bluetooth connectivity to its body, and <a href="https://www.arduino.cc/">Arduino</a> to control its actuators. The project also involved mechanical designing skills.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/robo_chotu_fyp/chotu_stage_2.jpg" title="Robo-Chotu onstage opening for an event at NED University" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/robo_chotu_fyp/chotu_stage_1.jpg" title="Robo-Chotu onstage opening for an event at NED University" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Robo-Chotu onstage opening for an event
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/robo_chotu_fyp/painting_chotu.jpg" title="Spray painting a trashcan that became the body of the first Chotu" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/robo_chotu_fyp/chotu_ferrari.jpg" title="Chotu's first dress" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    <b>Left:</b> Spray painting a trashcan that became the body of the first Chotu. <b>Right:</b> Chotu's first dress.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/robo_chotu_fyp/dil_dil_pakistan.jpg" title="Chotu on an Independence Day event, supporting a patriotic sticker" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/robo_chotu_fyp/chotu_greeter.jpg" title="Spray painting a trashcan that became the body of the first Chotu" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    <b>Left:</b> Chotu on an Independence Day event, supporting a patriotic sticker. <b>Right:</b> Robo-Chotu greeting people at the entrance of an event at NED University. 
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/robo_chotu_fyp/the_chotu_team.jpg" title="My teammates and I working on Chotu" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+    My teammates and I working on the first iteration of Robo-Chotu.
+</div>
