@@ -4,7 +4,7 @@ title: culture
 permalink: /culture/
 description: An assortment of things i have done (not necessarily academic in nature)
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [1947 Partition Archive, Cultural Exchange]
 horizontal: false
 ---
@@ -15,7 +15,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign categorized_projects = site.culture | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}

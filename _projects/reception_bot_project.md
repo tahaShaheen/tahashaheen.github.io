@@ -2,7 +2,7 @@
 layout: page
 title: Office Reception Robot
 description: Robot that recognized office employees and guests and learned new faces
-img: assets/img/projects/reception_bot.jpg
+img: assets/img/projects/reception_bot_2.jpg
 importance: 2
 category: work
 ---
