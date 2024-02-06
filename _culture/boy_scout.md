@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Boy Scount
+title: Boy Scout
 description: 2009 to 2012
 img: assets/img/culture/boy_scout/boy_scout.jpg
 importance: 10
