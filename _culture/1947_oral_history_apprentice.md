@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Oral History Apprentice
-description: 
+description: 83 oral histories and life stories collected
 img: assets/img/culture/1947/oha_interview.jpg
 importance: 1
 category: 1947 Partition Archive
@@ -9,8 +9,7 @@ category: 1947 Partition Archive
 
 Click <a href="/culture/1947_info/">here</a> to learn more about the 1947 Partition Archive and my interest in working with them. 
 
-In 2016, I received training from the Archive in story-collection and interviewing techniques to become an Oral History Apprentice. I recorded 83 life stories in
-Karachi and rural Punjab. Many of the interviews have been published on the Archive's website. Click on one of the names below and it will take you to the Archive's website where you can read the person's story.
+In 2016, I received training from the Archive in story-collection and interviewing techniques to become an Oral History Apprentice. I recorded 83 life stories in Karachi and rural Punjab. Many of the interviews have been published on the Archive's website. Click on one of the names below and it will take you to the Archive's website where you can read the person's story.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

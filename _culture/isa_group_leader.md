@@ -47,7 +47,7 @@ category: Cultural Exchange
 
 <div class="row">
 <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/isa_group_leader_hiroshima.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/isa_group_leader_hiroshima.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
