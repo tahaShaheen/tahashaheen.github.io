@@ -6,7 +6,7 @@ img: assets/img/culture/1947/1947_bbc_interview_mansel.jpg
 importance: 3
 category: 1947 Partition Archive
 ---
-In 2017, I was interviewed by BBC Radio as part of a documentary titled "Pakistan, Partition And The Present". I spoke of my personal journey of recording Partition eyewitness accounts and why this work was important to me. Intervieweing team was <a href="https://www.linkedin.com/in/shahzeb-jillani-2539313/">Shahzeb Jillani</a> (BBC correspondent in Pakistan) and <a href="https://www.linkedin.com/in/timmansel/">Tim Mansel</a> (Producer for BBC World Service).
+In 2017, I was interviewed by BBC Radio as part of a documentary titled "Pakistan, Partition And The Present". I spoke of my personal journey of recording Partition eyewitness accounts and why this work was important to me. 
 
 <div class="row">
     <div class="col-sm-12 mt-3 mt-md-0">
@@ -14,6 +14,8 @@ In 2017, I was interviewed by BBC Radio as part of a documentary titled "Pakista
         <a class="btn" href="https://www.bbc.co.uk/programmes/p05b70f4">Listen to the 2 part documentary</a>
     </div>
 </div>
+
+Intervieweing team was <a href="https://www.linkedin.com/in/shahzeb-jillani-2539313/">Shahzeb Jillani</a> (BBC correspondent in Pakistan) and <a href="https://www.linkedin.com/in/timmansel/">Tim Mansel</a> (Producer for BBC World Service).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
