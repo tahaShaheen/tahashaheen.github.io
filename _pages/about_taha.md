@@ -4,4 +4,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hey there! I am a Ph.D. student in Computer Science at Arizona State University working on human-robot collaboration associated with the Cooperative Robotic Systems Lab. I have 3+ years of research experience with a background in engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology, prevention of misuse of teleoperated robots at Kyoto University, and studies involving human-robot interaction. I am currently seeking internships for Summer 2024 in robotics research primarily in human-centered robotics.
+Hey there! I am a Ph.D. student in Computer Science at Arizona State University working on human-robot collaboration associated with the Cooperative Robotic Systems Lab. I have 3+ years of research experience with a background in engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology, prevention of misuse of teleoperated robots at Kyoto University, and studies involving human-robot interaction. 
+
+<!-- I am currently seeking internships for Summer 2024 in robotics research primarily in human-centered robotics. -->
