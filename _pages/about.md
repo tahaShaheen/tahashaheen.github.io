@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hey there! I am a Ph.D. student in Computer Science at Arizona State University working on human-robot collaboration associated with the Cooperative Robotic Systems Lab. I have 3+ years of research experience with a background in engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology, prevention of misuse of teleoperated robots at Kyoto University, and studies involving human-robot interaction. I am currently seeking internships for Summer 2024 in robotics research primarily in human-centered robotics.
+Hey there! I am a Ph.D. student in Computer Science at Arizona State University working on human-robot collaboration associated with the Cooperative Robotic Systems Lab. I have 3+ years of research experience with a background in engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology, prevention of misuse of teleoperated robots at Kyoto University, and studies involving human-robot interaction.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
