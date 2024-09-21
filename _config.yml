@@ -12,9 +12,9 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: taha, shaheen, taha-shaheen, arizona, state, university, kyoto, kyodai, arshad, taha-arshad, jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: taha, shaheen, taha-shaheen, arizona, state, university, kyoto, kyodai, arshad, taha-arshad, jekyll, jekyll-theme, academic-website, portfolio-website, humn-robot, robot, interaction # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://tashaheen.github.io # the base hostname & protocol for your site
 #baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -69,7 +69,7 @@ og_image: sat_pic.jpg # The site-wide (default for all links) Open Graph preview
 
 github_username: tahashaheen # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: # your X handle
+x_username: AnotherTaha # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: taha-shaheen # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -112,11 +112,11 @@ contact_note: >
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-TW165PXDFD # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: pP-zhqIW2xhmEjAp8Z8HT2IgE-Jb02pqCSVafxuwQd8 # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
