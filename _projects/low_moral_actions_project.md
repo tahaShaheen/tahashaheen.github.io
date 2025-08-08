@@ -39,10 +39,10 @@ We conducted three hazard identification workshops with a total of 12 participan
 
 Through these workshops, we identified four main categories of low-moral actions:
 <ol>
-    <li> Violate Privacy and Security: Actions such as eavesdropping or entering forbidden spaces.
-    <li> Inhibit: Blocking access to resources or obstructing movement.
-    <li> Annoy: Actions like unnatural movement or invading personal space.
-    <li> Destroy or Hurt: Causing physical harm to individuals or damage to property.
+    <li>Violate Privacy and Security: Actions such as eavesdropping or entering forbidden spaces.</li>
+    <li>Inhibit: Blocking access to resources or obstructing movement.</li>
+    <li>Annoy: Actions like unnatural movement or invading personal space.</li>
+    <li>Destroy or Hurt: Causing physical harm to individuals or damage to property.</li>
 </ol>
 
 Each category was further divided into subcategories, resulting in a comprehensive list of potential actions and their manifestations. For instance, "Inhibit Movement" included examples like blocking hallways, while "Annoy" covered actions such as chasing individuals or misleading them.
