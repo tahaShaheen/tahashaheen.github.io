@@ -32,5 +32,17 @@ In {% cite shaheen2024lowmoralactions %}, we looked at what low-moral actions we
     </div>
 </div>
 <div class="caption">
-    Examples of participants doing low-moral actions in three of the five simulation environments. <b>Left:</b> Robot inhibits movement of the crowd in a big clothing store. <b>Right:</b> Robot inhibits movement of an individual in a large hall in a mall. The top-down view was hidden from the participants. They only saw the Robo POV view.
+    Examples of participants doing low-moral actions in three of the five simulation environments. <b>Left:</b> Robot inhibits movement of the crowd in a big clothing store. <b>Right:</b> Robot inhibits movement of an individual in a large hall in a mall. The top-down view was hidden from the participants. They only saw from the Robot's point-of-view.
 </div>
+
+We conducted three hazard identification workshops with a total of 12 participants (6 male, 6 female) to brainstorm possible low-moral actions. Participants first experienced avatar robots by operating a real robot, a simulated avatar, and sharing space with an avatar robot. Activities included tasks like navigating through simulated environments such as shopping malls and convenience stores, where participants acted as malicious operators. This experience phase was critical for ideation, ensuring that participants understood the technology and its potential for misuse.
+
+Through these workshops, we identified four main categories of low-moral actions:
+<ol>
+    <li> Violate Privacy and Security: Actions such as eavesdropping or entering forbidden spaces.
+    <li> Inhibit: Blocking access to resources or obstructing movement.
+    <li> Annoy: Actions like unnatural movement or invading personal space.
+    <li> Destroy or Hurt: Causing physical harm to individuals or damage to property.
+</ol>
+
+Each category was further divided into subcategories, resulting in a comprehensive list of potential actions and their manifestations. For instance, "Inhibit Movement" included examples like blocking hallways, while "Annoy" covered actions such as chasing individuals or misleading them.
