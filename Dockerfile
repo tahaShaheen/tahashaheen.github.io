@@ -3,14 +3,19 @@ ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
 
+# This is the updated command that adds Node.js
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
     locales \
     imagemagick \
     ruby-full \
     build-essential \
+    pkg-config \
+    libv8-dev \
     zlib1g-dev \
     jupyter-nbconvert \
-    inotify-tools procps && \
+    inotify-tools procps \
+    nodejs \
+    npm && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
 
