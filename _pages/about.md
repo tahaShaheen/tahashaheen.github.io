@@ -18,7 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hey there! I am a Ph.D. student in Computer Science at Arizona State University working on human-robot collaboration associated with the Cooperative Robotic Systems Lab. I have over 4 years of research experience with a background in engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology, prevention of misuse of teleoperated robots at Kyoto University, studies involving human-robot interaction, and preference-based reinforcement learning.
+<!-- I am a Ph.D. student in Computer Science at Arizona State University working on human-robot collaboration associated with the Cooperative Robotic Systems Lab. I have over 4 years of research experience with a background in engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology, prevention of misuse of teleoperated robots at Kyoto University, studies involving human-robot interaction, and preference-based reinforcement learning. -->
+
+Hey there! I am a Ph.D. student in Computer Science at Arizona State University and a researcher advised by [Yu "Tony" Zhang](https://scholar.google.com/citations?user=n0uRPLgAAAAJ&hl=en&oi=ao), [Stephen West](https://scholar.google.com/citations?user=SkMe3SEAAAAJ&hl=en&oi=sra), and [Heni Ben Amor](https://scholar.google.com/citations?user=UvUDb-kAAAAJ&hl=en&oi=sra). I am currently investigating how a mismatch between a human's understanding of the domain dynamics affects the quality of their feedback, and how this in turn impacts an agent's reward learning.
+
+My background includes investigating prevention of misuse of teleoperated robots at Kyoto University with [Takayuki Kanda](https://scholar.google.com/citations?hl=en&user=BL9EACgAAAAJ&view_op=list_works&sortby=pubdate) and [Drazen Brscic](https://scholar.google.com/citations?user=XvMpFZQAAAAJ&hl=en), and engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology, mentored by [Hashim Raza Khan](https://scholar.google.com/citations?hl=en&user=MGMzVjcAAAAJ).
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
