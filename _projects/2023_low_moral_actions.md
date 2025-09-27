@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Low-Moral Actions by Malicious Anonymous Operators of Avatar Robots
+title: Low-Moral Actions in Avatar Robots
 description: Masters research project at HRI Lab, Kyoto University
 img: /assets/img/projects/2023_low_moral_actions/cover.png
 importance: 1
