@@ -61,25 +61,16 @@ One flaw of this is that it is not readily apparent to bystanders who the operat
 #### Risk Analysis Workshops
 We conducted three hazard identification workshops with a total of 12 participants (6 male, 6 female) to brainstorm possible low-moral actions. Participants first experienced avatar robots by operating a real robot, a simulated avatar, and sharing space with an avatar robot. Activities included tasks like navigating through simulated environments such as shopping malls and convenience stores, where participants acted as malicious operators. This experience phase was critical for ideation, ensuring that participants understood the technology and its potential for misuse. At the end, participants brainstormed ideas of what low-moral actions are possible when an avatar robot is limited to locomotor movement and video feed from the robot’s eyes to the operator only. 
 
-{% include video.liquid path="assets/video/projects/2023_low_moral_actions/lma_robot_pushes_man.mp4" title="poster exhibition low moral action" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true%}
-<div class="caption">
-    Participants in an activity that simulates an art or poster exhibition. The video shows one participant being forced to change their position by the avatar operated by another participant from a separate room.
-</div>
+{% include video.liquid path="assets/video/projects/2023_low_moral_actions/lma_robot_pushes_man.mp4" title="low moral action example" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true caption="Participants in an activity that simulates an art or poster exhibition. The video shows one participant being forced to change their position by the avatar operated by another participant from a separate room."%}
 
 
 Following are examples of the participants doing low-moral acts in simulations. The top-down view was hidden from the participants. They only saw from the Robot's point-of-view.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/2023_low_moral_actions/big_store_congestion.png" title="Robot inhibits movement of the crowd in a big clothing store" class="img-fluid rounded z-depth-1" %}
-        <div class="caption mt-2">
-            Robot inhibits movement of the crowd in a big clothing store.
-        </div>
+        {% include figure.liquid path="assets/img/projects/2023_low_moral_actions/big_store_congestion.png" title="Robot inhibits movement of the crowd in a big clothing store" class="img-fluid rounded z-depth-1" caption="Robot inhibits movement of the crowd in a big clothing store."%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/2023_low_moral_actions/big_hall_block_path.png" title="Robot inhibits movement of an individual in a large hall in a mall." class="img-fluid rounded z-depth-1" %}
-        <div class="caption mt-2">
-            Robot inhibits movement of an individual in a large hall in a mall.
-        </div>
+        {% include figure.liquid path="assets/img/projects/2023_low_moral_actions/big_hall_block_path.png" title="Robot inhibits movement of an individual in a large hall in a mall." class="img-fluid rounded z-depth-1" caption="Robot inhibits movement of an individual in a large hall in a mall."%}
     </div>
 </div>
 
