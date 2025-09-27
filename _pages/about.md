@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Arizona State University</a>
+subtitle: <a href='https://search.asu.edu/profile/4752952'>Arizona State University</a>
 
 profile:
   align: right
