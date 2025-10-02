@@ -8,7 +8,7 @@ category: work
 permalink: /projects/reception_robot
 ---
 
-During the COVID pandemic shutdowns, I used the [Robo-Chotu platform](projects/robochotu_fyp) and the [PyPI face-recognition package](https://pypi.org/project/face-recognition/) to create a reception robot that could identify people by their faces. The robot could distinguish between guests and employees and remember the new faces it encountered.
+During the COVID pandemic shutdowns, I used the [Robo-Chotu platform](/projects/robochotu_fyp) and the [PyPI face-recognition package](https://pypi.org/project/face-recognition/) to create a reception robot that could identify people by their faces. The robot could distinguish between guests and employees and remember the new faces it encountered.
 
 The robot would greet the person at the reception and ask them who they wanted to meet. It would listen to their verbal response and confirm it by displaying the employee’s name on its screen. If the robot failed to recognize the response after three attempts, it would show a list of employees and ask the visitor to choose the one they wanted to see.
 

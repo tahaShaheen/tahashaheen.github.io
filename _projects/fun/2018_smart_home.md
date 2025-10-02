@@ -5,7 +5,7 @@ description: Connected AC and fan to internet
 img: assets/img/projects/fun/2018_smart_home/cover.jpg
 importance: 4
 category: fun
-permalink: projects/fun/smart_home
+permalink: /projects/fun/smart_home
 ---
 
 I wrote an Android app in Java, programmed and installed an [ESP8266 nodemcu](https://www.nodemcu.com/index_en.html) in an air conditioner, and set up a backend on [Google Firebase](https://firebase.google.com/). I configured the AC to turn on at a certain time of the day. I also wrote an app to remotely operate the AC through WiFi. To send signals to the AC, I copied the AC remote's IR signals using a TSOP1738, then ripped out the IR LED from the remote and attached it to the ESP. The ESP and LED combination was hung from the ceiling in front of the AC.

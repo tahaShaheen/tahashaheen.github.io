@@ -5,7 +5,7 @@ description: Undergraduate final year project at NED University
 img: assets/img/projects/work/2017_robochotu_fyp/cover.jpg
 importance: 6
 category: work
-permalink: projects/robochotu_fyp
+permalink: /projects/robochotu_fyp
 ---
 
 For my final-year project, I created a social robot called Robo-Chotu (chotu means small in Urdu). This project was a requirement for my Engineering undergrad degree, which I completed with a team of three other students. Robo-Chotu could interact with people around it, deliver speeches, and host events at [NED University of Engineering and Technology](https://www.neduet.edu.pk/) and [Dow University of Health Sciences](https://www.duhs.edu.pk/). We also modified the robot to interact with children on the autism spectrum. We used [Unity](https://unity.com/) and [Java](https://developer.android.com/build/jdks) for Android to design its animated face, control its expressions and Bluetooth connectivity to its body, and [Arduino](https://www.arduino.cc/) to control its actuators. The project also involved mechanical designing skills.

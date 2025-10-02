@@ -9,7 +9,7 @@ permalink: /projects/emotion_communication_tool
 
 ---
 
-Under guidance of therapists from the [Dow Institute of Physical Medicine and Rehabilitation](https://www.duhs.edu.pk/new/ipmr-introduction/) and the [Center for Autism Rehabilitation & Training Sindh](https://c-arts.org.pk/){:target="_blank"} and assisted by two teams of 4 undergraduate students each, I explored the use of [Robo-Chotu](projects/robochotu_fyp) as an emotion-communication tool. 
+Under guidance of therapists from the [Dow Institute of Physical Medicine and Rehabilitation](https://www.duhs.edu.pk/new/ipmr-introduction/) and the [Center for Autism Rehabilitation & Training Sindh](https://c-arts.org.pk/){:target="_blank"} and assisted by two teams of 4 undergraduate students each, I explored the use of [Robo-Chotu](/projects/robochotu_fyp) as an emotion-communication tool. 
 
 In an on-site pilot, we put items such as a birthday hat or a band-aid on the robot. Programmed the robot to also show an appropriate expression on its face. Children on the Autism Spectrum then identified the emotion that matched the situation. 
 
@@ -22,7 +22,7 @@ In an on-site pilot, we put items such as a birthday hat or a band-aid on the ro
     </div>
 </div>
 
-Rebuilt [Robo-Chotu](projects/robochotu_fyp) for this task. Added natural language processing and communication
+Rebuilt [Robo-Chotu](/projects/robochotu_fyp) for this task. Added natural language processing and communication
 using Google [Dialogflow](https://cloud.google.com/dialogflow). Wrote Android app for Wizard-of-Oz control.
 
 We made the code public but the repositories are not maintained. [Doxygen](https://www.doxygen.nl/index.html) documentation is available for the first four repositories.
