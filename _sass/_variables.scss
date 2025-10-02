@@ -27,6 +27,15 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
 
+$red-crimson: #DC143C;
+$red-scarlet: #FF2400;
+$red-carmine: #960018;
+$red-burgandy: #800020; // nope
+$red-vermilion: #E34234;
+$red-tomato: #FF6347;
+
+$taha-red: #{$red-vermilion};
+
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 

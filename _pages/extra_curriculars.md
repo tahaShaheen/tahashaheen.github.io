@@ -1,7 +1,7 @@
 ---
 layout: page
-title: extra curricular
-permalink: /culture/
+title: extra curriculars
+permalink: /extra_curriculars/
 description: An assortment of things I have done (not necessarily academic in nature)
 nav: true
 nav_order: 4
@@ -15,7 +15,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {% assign categorized_projects = site.culture | where: "category", category %}
+  {% assign categorized_projects = site.extra_curriculars | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}

@@ -174,9 +174,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  culture:
+  extra_curriculars:
     output: true
-    permalink: /culture/:path/
+    permalink: /extra_curriculars/:path/
 
 announcements:
   enabled: true
