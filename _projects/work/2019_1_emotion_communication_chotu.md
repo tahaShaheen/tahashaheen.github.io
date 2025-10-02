@@ -15,10 +15,10 @@ In an on-site pilot, we put items such as a birthday hat or a band-aid on the ro
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/2019_1_emotion_communication_chotu/emotion_communication_1.jpg" title="Robo-Chotu wearing birthday hat and turned off" class="img-fluid rounded z-depth-1" caption="Robo-Chotu turned off. This is the state the robot would be before the child entered the room."%}
+        {% include figure.liquid path="assets/img/projects/work/2019_1_emotion_communication_chotu/emotion_communication_1.jpg" title="Robo-Chotu wearing birthday hat and turned off" class="img-fluid rounded z-depth-1" caption="Robo-Chotu turned off. This is the state the robot would be before the child entered the room."%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/2019_1_emotion_communication_chotu/emotion_communication_2.jpg" title="Robo-Chotu weraing a birthday hat and happy" class="img-fluid rounded z-depth-1" caption="Robo-Chotu turned on and happy. Wearing a birthday cap."%}
+        {% include figure.liquid path="assets/img/projects/work/2019_1_emotion_communication_chotu/emotion_communication_2.jpg" title="Robo-Chotu weraing a birthday hat and happy" class="img-fluid rounded z-depth-1" caption="Robo-Chotu turned on and happy. Wearing a birthday cap."%}
     </div>
 </div>
 
