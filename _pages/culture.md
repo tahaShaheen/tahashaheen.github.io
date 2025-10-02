@@ -1,6 +1,6 @@
 ---
 layout: page
-title: culture
+title: extra curricular
 permalink: /culture/
 description: An assortment of things I have done (not necessarily academic in nature)
 nav: true
