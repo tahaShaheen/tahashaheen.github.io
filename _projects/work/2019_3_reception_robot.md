@@ -2,10 +2,10 @@
 layout: page
 title: Office Reception Robot
 description: Robot that recognized office employees and guests and learned new faces
-img: assets/img/projects/2019_3_reception_robot/cover.png
+img: assets/img/projects/work/2019_3_reception_robot/cover.png
 importance: 2
 category: work
-permalink: /projects/reception_robot/
+permalink: /projects/reception_robot
 ---
 
 During the COVID pandemic shutdowns, I used the [Robo-Chotu platform](projects/robochotu_fyp) and the [PyPI face-recognition package](https://pypi.org/project/face-recognition/) to create a reception robot that could identify people by their faces. The robot could distinguish between guests and employees and remember the new faces it encountered.
@@ -16,17 +16,17 @@ I developed three Android apps for this project: one for the reception robot, on
 
 I had the support of some very talented junior research assistants for this project.
 
-{% include video.liquid path="assets/video/projects/2019_2_reception_robot/reception_bot_demo.mp4" title="reception_bot" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true caption="The video (in Urdu) demonstrates the system in action. The robot recognizes a guest, has a conversation with them, sends a notification to the employee, and then directs the guest to the desired location."%}
+{% include video.liquid path="assets/video/projects/work/2019_2_reception_robot/reception_bot_demo.mp4" title="reception_bot" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true caption="The video (in Urdu) demonstrates the system in action. The robot recognizes a guest, has a conversation with them, sends a notification to the employee, and then directs the guest to the desired location."%}
 
 <div class="row justify-content-center">
     <div class="col-4 mt-3 mt-md-0">
         <div class="text-center">
-            {% include figure.liquid path="assets/img/projects/2019_3_reception_robot/reception_bot_employee.jpg" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/projects/work/2019_3_reception_robot/reception_bot_employee.jpg" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
     <div class="col-4 mt-3 mt-md-0">
         <div class="text-center">
-            {% include figure.liquid path="assets/img/projects/2019_3_reception_robot/reception_bot_employee2.jpg" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/projects/work/2019_3_reception_robot/reception_bot_employee2.jpg" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
     <div class="caption">

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: projects & media
 permalink: /projects/
-description: Notable projects
+description: Notable projects, videos, and fun
 nav: true
 nav_order: 3
 display_categories: [work, media, fun]

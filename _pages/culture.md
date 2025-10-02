@@ -2,7 +2,7 @@
 layout: page
 title: culture
 permalink: /culture/
-description: An assortment of things i have done (not necessarily academic in nature)
+description: An assortment of things I have done (not necessarily academic in nature)
 nav: true
 nav_order: 4
 display_categories: [1947 Partition Archive, Cultural Exchange]

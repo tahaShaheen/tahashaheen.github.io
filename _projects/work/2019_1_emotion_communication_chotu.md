@@ -2,10 +2,10 @@
 layout: page
 title: Robot as Emotion Communication Tool
 description: Children with ASD identified robot emotions that matched situations
-img: assets/img/projects/2019_1_emotion_communication_chotu/cover.jpg
+img: assets/img/projects/work/2019_1_emotion_communication_chotu/cover.jpg
 importance: 3
 category: work
-permalink: /projects/emotion_communication_tool/
+permalink: /projects/emotion_communication_tool
 
 ---
 
