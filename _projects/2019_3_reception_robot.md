@@ -16,15 +16,15 @@ I developed three Android apps for this project: one for the reception robot, on
 
 I had the support of some very talented junior research assistants for this project.
 
-{% include video.liquid path="assets/video/projects/2019_3_reception_robot/reception_bot_demo.mp4" title="reception_bot" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true caption="The video (in Urdu) demonstrates the system in action. The robot recognizes a guest, has a conversation with them, sends a notification to the employee, and then directs the guest to the desired location."%}
+{% include video.liquid path="assets/video/projects/2019_2_reception_robot/reception_bot_demo.mp4" title="reception_bot" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true caption="The video (in Urdu) demonstrates the system in action. The robot recognizes a guest, has a conversation with them, sends a notification to the employee, and then directs the guest to the desired location."%}
 
 <div class="row justify-content-center">
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-4 mt-3 mt-md-0">
         <div class="text-center">
             {% include figure.liquid path="assets/img/projects/2019_3_reception_robot/reception_bot_employee.jpg" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-4 mt-3 mt-md-0">
         <div class="text-center">
             {% include figure.liquid path="assets/img/projects/2019_3_reception_robot/reception_bot_employee2.jpg" class="img-fluid rounded z-depth-1" %}
         </div>
