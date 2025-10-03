@@ -11,6 +11,13 @@ layout: default
         <a href="{{ page.button.url }}" class="btn btn-sm z-depth-0 w-100 fw-bold" role="button" target="_blank" style="background-color: var(--global-theme-color); color: white; border-color: var(--global-theme-color);">{{ page.button.text }}</a>
       </div>
     {% endif %}
+    {% if page.buttons %}
+      {% for button in page.buttons %}
+        <div class="mb-3">
+          <a href="{{ button.url }}" class="btn btn-sm z-depth-0 w-100 fw-bold" role="button" target="_blank" style="background-color: var(--global-theme-color); color: white; border-color: var(--global-theme-color);">{{ button.text }}</a>
+        </div>
+      {% endfor %}
+    {% endif %}
   </header>
 
   <article>

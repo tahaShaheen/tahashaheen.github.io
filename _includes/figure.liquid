@@ -1,6 +1,9 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 
 <figure>
+  {%- if include.link -%}
+  <a href="{{ include.link }}" {% if include.target %}target="{{ include.target }}"{% else %}target="_blank"{% endif %}>
+  {%- endif -%}
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -58,6 +61,9 @@
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >
   </picture>
+  {%- if include.link -%}
+  </a>
+  {%- endif -%}
 
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
