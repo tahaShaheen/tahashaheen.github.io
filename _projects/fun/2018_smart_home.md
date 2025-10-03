@@ -26,7 +26,7 @@ I wrote an Android app in Java, programmed and installed an [ESP8266 nodemcu](ht
 
 Later that year, I added a makeshift PCB into the wiring of my house with relays to control fans and lights in my room.
 
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/fun/2018_smart_home/fan_bt_pcb_1.jpeg" title="Relays PCB" class="img-fluid rounded z-depth-1" caption="The circuit board."%}
     </div>

@@ -12,9 +12,9 @@ During my time as international student at Kyoto University, I took groups of Ja
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2021_tour_guide_kyoto/tour_kyoto_1.jpg" title="At a Japanese tea ceremony in Kyoto" class="img-fluid rounded z-depth-1" caption="At a Japanese tea ceremony in Kyoto."%}
+        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2021_tour_guide_kyoto/tour_kyoto_1.png" title="At a Japanese tea ceremony in Kyoto" class="img-fluid rounded z-depth-1" caption="At a Japanese tea ceremony in Kyoto."%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2021_tour_guide_kyoto/tour_kyoto_2.jpg" title="At Nijo Castle in Kyoto" class="img-fluid rounded z-depth-1" caption="At Nijo Castle in Kyoto."%}
+        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2021_tour_guide_kyoto/tour_kyoto_2.png" title="At Nijo Castle in Kyoto" class="img-fluid rounded z-depth-1" caption="At Nijo Castle in Kyoto."%}
     </div>
 </div>

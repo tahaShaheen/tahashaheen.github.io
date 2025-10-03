@@ -23,19 +23,19 @@ If you're in Kyoto, drop by and say hi to them and listen to the stories the ser
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2023_sekai_cafe/sekai_cafe_4.jpg" title="Giving a presentation to the patrons of Sekai Cafe." class="img-fluid rounded z-depth-1" caption="Giving a presentation to the patrons of Sekai Cafe. This photograph was featured on the Japanese lifestyle and local information website <a href='https://kyotoliving.co.jp/topics/34875.html' target='_blank'>Kyoto Living</a>, where they described this unique cafe." %}
+        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2023_sekai_cafe/sekai_cafe_4.png" title="Giving a presentation to the patrons of Sekai Cafe." class="img-fluid rounded z-depth-1" caption="Giving a presentation to the patrons of Sekai Cafe. This photograph was featured on the Japanese lifestyle and local information website <a href='https://kyotoliving.co.jp/topics/34875.html' target='_blank'>Kyoto Living</a>, where they described this unique cafe." %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2023_sekai_cafe/sekai_cafe_3.jpg" title="A excerpt of an interview featured on Sekai cafe's website. " class="img-fluid rounded z-depth-1" caption="An excerpt of an interview featured on Sekai cafe's <a href='https://sekaicafekyoto.com/' target='_blank'>website</a>." %}
+        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2023_sekai_cafe/sekai_cafe_3.png" title="A excerpt of an interview featured on Sekai cafe's website. " class="img-fluid rounded z-depth-1" caption="An excerpt of an interview featured on Sekai cafe's <a href='https://sekaicafekyoto.com/' target='_blank'>website</a>." %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2023_sekai_cafe/sekai_cafe_5.jpg" title="Giving a presentation to the patrons of Sekai Cafe." class="img-fluid rounded z-depth-1" caption="Screenshot from Sekai Cafe website in 2025." %}
+        {% include figure.liquid path="assets/img/extra_curriculars/cultural_exchange/2023_sekai_cafe/sekai_cafe_5.png" title="Giving a presentation to the patrons of Sekai Cafe." class="img-fluid rounded z-depth-1" caption="Screenshot from Sekai Cafe website in 2025." %}
     </div>
 </div>
 
