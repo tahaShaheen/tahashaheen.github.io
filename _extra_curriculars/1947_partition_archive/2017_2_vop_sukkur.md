@@ -14,7 +14,7 @@ button:
 I helped organize the Voices of Partition event in Sindh Rural Support Organization in Sukkur (SRSO), Sindh. Witnesses of the 1947 Parition of British India spoke of their experiences. I was Master of Ceremonies and briefly spoke
 of my experience as an interviewer and collector of stories for the [1947 Partition Archive](https://www.1947partitionarchive.org/). This event was covered by [Times of Islamabad](https://timesofislamabad.com/28-Apr-2017/india-pakistan-partition-stories-shared-by-those-who-witnessed-it).
 
-You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info/).
+You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

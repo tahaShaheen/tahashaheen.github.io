@@ -12,7 +12,7 @@ button:
 ---
 I wrote my grandmother's story of migration for the Express Tribune in their Independence Day series in 2018.
 
-You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info/).
+You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info).
 
 
 <div class="row justify-content-center">

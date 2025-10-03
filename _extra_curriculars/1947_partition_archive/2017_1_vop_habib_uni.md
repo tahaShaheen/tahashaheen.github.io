@@ -12,7 +12,7 @@ button:
 ---
 I helped organize the Voices of Partition event in Habib University in Karachi. Witnesses of the 1947 Parition of British India spoke of their experiences. I was part of the panel and spoke of my experience as an interviewer and collector of stories for the [1947 Partition Archive](https://www.1947partitionarchive.org/). This event was covered by [DAWN News](https://www.dawn.com/news/1328874).
 
-You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info/).
+You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info).
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">

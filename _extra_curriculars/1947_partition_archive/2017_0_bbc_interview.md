@@ -25,4 +25,4 @@ Intervieweing team was composed of [Shahzeb Jillani](https://www.linkedin.com/in
     </div>
 </div>
 
-You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info/).
+You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info).

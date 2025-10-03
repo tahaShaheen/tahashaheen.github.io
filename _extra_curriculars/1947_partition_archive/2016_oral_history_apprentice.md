@@ -10,7 +10,7 @@ permalink: /extra_curriculars/1947_partition_archive/oral_history_apprentice
 
 In 2016, I received training from the [1947 Partition Archive](https://www.1947partitionarchive.org/) in story-collection and interviewing techniques to become an Oral History Apprentice. I recorded 83 life stories in Karachi and rural Punjab. Many of the interviews have been published on the Archive's website. Click on one of the names below and it will take you to the Archive's website where you can read the person's story. 
 
-You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info/).
+You can learn more about [my connection with the 1947 Partition of British India](/extra_curriculars/1947_partition_archive/1947_info).
 
 **Note: As of October 2025, all the links are broken. The Archive website is going through some form of migration to a new database. Hopefully, the links will begin to work soon.**
 
