@@ -29,6 +29,7 @@ Currently I am investigating how a mismatch between a human's understanding of t
 
 My background includes identification and prevention of misuse of teleoperated robots, with [Takayuki Kanda](https://scholar.google.com/citations?hl=en&user=BL9EACgAAAAJ&view_op=list_works&sortby=pubdate) and [Drazen Brscic](https://scholar.google.com/citations?user=XvMpFZQAAAAJ&hl=en) at Kyoto University, and engineering low-cost socially assistive robots for autism therapy, mentored by [Hashim Raza Khan](https://scholar.google.com/citations?hl=en&user=MGMzVjcAAAAJ) at NED University of Engineering and Technology.
 
+**Seeking a full-time, 12-week internship for Summer 2026.**
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

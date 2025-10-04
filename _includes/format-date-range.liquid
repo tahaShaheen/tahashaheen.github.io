@@ -1,0 +1,43 @@
+{%- comment -%}
+  This include formats a date range.
+  It expects `include.startDate` and `include.endDate`.
+  - If a date is YYYY-MM, it formats it to Mon-YY.
+  - If a date is just YYYY, it displays the year.
+  - It handles "Present" for the end date.
+{%- endcomment -%}
+
+{%- assign start_date_str = "" -%}
+{%- if include.startDate -%}
+  {%- assign start_date_parts = include.startDate | split: '-' -%}
+  {%- if start_date_parts.size == 2 -%}
+    {%- comment -%} Handle YYYY-MM format {%- endcomment -%}
+    {%- assign temp_date = include.startDate | append: "-01" -%}
+    {%- assign start_date_str = temp_date | date: "%b-%Y" -%}
+  {%- else -%}
+    {%- comment -%} Handle YYYY or other formats {%- endcomment -%}
+    {%- assign start_date_str = include.startDate -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign end_date_str = "" -%}
+{%- if include.endDate and include.endDate != "" -%}
+  {%- if include.endDate == "Present" or include.endDate == "PRESENT" -%}
+    {%- assign end_date_str = "Present" -%}
+  {%- else -%}
+    {%- assign end_date_parts = include.endDate | split: '-' -%}
+    {%- if end_date_parts.size == 2 -%}
+      {%- comment -%} Handle YYYY-MM format {%- endcomment -%}
+      {%- assign temp_date = include.endDate | append: "-01" -%}
+      {%- assign end_date_str = temp_date | date: "%b-%Y" -%}
+    {%- else -%}
+      {%- comment -%} Handle YYYY or other formats {%- endcomment -%}
+      {%- assign end_date_str = include.endDate -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if start_date_str != "" and end_date_str != "" -%}
+  {{ start_date_str }} --- {{ end_date_str }}
+{%- else -%}
+  {{ start_date_str }}
+{%- endif -%}
