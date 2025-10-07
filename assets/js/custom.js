@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const e=document.querySelectorAll(".robot-gallery");e.length>0&&e.forEach(e=>{lightGallery(e,{selector:"a"})})});
