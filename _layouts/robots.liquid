@@ -1,0 +1,59 @@
+---
+layout: page
+---
+<!-- layouts/robots.liquid -->
+<div class="post">
+  <article>
+    {% if page.profiles %}
+      {% for profile in page.profiles %}
+        <hr>
+        <div class="profile float-{% cycle 'right', 'left' %}">
+          {% if profile.images %}
+            {% assign gallery_id = profile.name | slugify %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            
+            <div class="gallery-container">
+                {% for image in profile.images %}
+                {% assign image_path = image.url | default: image %}
+                {% assign image_caption = image.caption %}
+
+                {% if forloop.first %}
+                    {% include figure.liquid 
+                    path=image_path
+                    link=image_path
+                    class=profile_image_class 
+                    sizes=sizes 
+                    alt=profile.name 
+                    gallery=gallery_id 
+                    data-caption=image_caption %}
+                {% else %}
+                    <a href="{{ image_path | relative_url }}" data-gallery="{{ gallery_id }}" data-caption="{{ image_caption }}"></a>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+          {% endif %}
+          {% if profile.more_info %}
+            <div class="more-info">{{ profile.more_info }}</div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if profile.name %}
+            <h3>{{ profile.name }}</h3>
+          {% elsif profile.name-html %}
+            <h3>{{ profile.name-html }}</h3>
+          {% endif %}
+          {% if profile.content %}
+            {{ profile.content | markdownify }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>

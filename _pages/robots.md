@@ -1,63 +1,33 @@
 ---
-layout: page
-title: robots
+layout: robots
 permalink: /robots/
-description: Robots I have worked with
+title: robots
+description: "Robots I have worked with"
 nav: true
+gallery: true
 nav_order: 5
-display_categories: []
-horizontal: false
+profiles:
+  - name: Robo-Chotu
+    images:
+    - url: /assets/img/projects/work/2023_low_moral_actions/robot_robovie.png
+      caption: "Robovie, a research platform for human-robot interaction."
+    - url: /assets/img/projects/work/2023_low_moral_actions/robot_robovie.png
+      caption: "Robovie, a research platform for human-robot interaction2."
+
+    content: This was my **undergraduate** final year project, a low-cost social robot.
+  - name: Robovie
+    images:
+      - url: /assets/img/projects/work/2023_low_moral_actions/robot_robovie.png
+        caption: "Robovie, a research platform for human-robot interaction2."
+    content: Used in my *Master's research* on avatar robots at [Kyoto University](https://www.kyoto-u.ac.jp/en).
+  - name: Engkey
+    images:
+      - url: /assets/img/projects/work/2023_low_moral_actions/robot_engkey.png
+        caption: "Hello"
+      - /assets/img/projects/work/2023_low_moral_actions/robot_double.png
+    content: Studied as an example of an avatar robot for my [research](tahashaheen.github.io).
+  - name: Double 3
+    images:
+      - /assets/img/projects/work/2023_low_moral_actions/robot_double.png
+    content: Studied as an example of a telepresence robot for my research.
 ---
-
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {% assign categorized_projects = site.culture | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>

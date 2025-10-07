@@ -2,7 +2,7 @@
 
 <figure>
   {%- if include.link -%}
-  <a href="{{ include.link }}" {% if include.target %}target="{{ include.target }}"{% else %}target="_blank"{% endif %}>
+  <a href="{{ include.link }}" {% if include.gallery %}data-gallery="{{ include.gallery }}"{% endif %} {% if include.data-caption %}data-caption="{{ include.data-caption }}"{% endif %}>
   {%- endif -%}
   <picture>
     <!-- Auto scaling with imagemagick -->

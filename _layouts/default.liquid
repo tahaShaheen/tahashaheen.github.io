@@ -42,6 +42,19 @@
 
     <!-- Footer -->
     {% include footer.liquid %}
+    
+    <!-- Gallery Modal HTML -->
+    <div id="gallery-modal" class="gallery-modal-overlay">
+      <span class="gallery-close-btn">&times;</span>
+      <a class="gallery-prev-btn">&#10094;</a>
+      <div class="gallery-modal-container">
+        <div class="gallery-modal-content">
+          <img id="gallery-modal-image" src="" alt="Gallery image">
+        </div>
+        <div id="gallery-modal-caption" class="gallery-modal-caption"></div>
+      </div>
+      <a class="gallery-next-btn">&#10095;</a>
+    </div>
 
     <!-- JavaScripts -->
     {% include scripts/jquery.liquid %}
@@ -54,5 +67,8 @@
     {% include scripts/analytics.liquid %}
     {% include scripts/progressBar.liquid %}
     {% include scripts/wechatModal.liquid %}
+    {% if page.gallery %}
+      {% include scripts/gallery.liquid %}
+    {% endif %}
   </body>
 </html>
