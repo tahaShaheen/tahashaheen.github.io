@@ -2,7 +2,10 @@
 
 <figure>
   {%- if include.link -%}
-  <a href="{{ include.link }}" {% if include.gallery %}data-gallery="{{ include.gallery }}"{% endif %} {% if include.data-caption %}data-caption="{{ include.data-caption }}"{% endif %}>
+  <a href="{{ include.link }}" 
+  {% if include.gallery %}data-gallery="{{ include.gallery }}"{% endif %} 
+  {% if include.data-caption %}data-caption="{{ include.data-caption }}"{% endif %}
+  {% if include.data-type %}data-type="{{ include.data-type }}"{% endif %}>
   {%- endif -%}
   <picture>
     <!-- Auto scaling with imagemagick -->

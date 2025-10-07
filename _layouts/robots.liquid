@@ -18,21 +18,23 @@ layout: page
             {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
             
             <div class="gallery-container">
-                {% for image in profile.images %}
-                {% assign image_path = image.url | default: image %}
-                {% assign image_caption = image.caption %}
+                {% for item in profile.images %}
+                {% assign item_path = item.url | default: item %}
+                {% assign item_caption = item.caption %}
+                {% assign item_type = item.type | default: 'image' %}
 
                 {% if forloop.first %}
                     {% include figure.liquid 
-                    path=image_path
-                    link=image_path
+                    path=item_path
+                    link=item_path
                     class=profile_image_class 
                     sizes=sizes 
                     alt=profile.name 
                     gallery=gallery_id 
-                    data-caption=image_caption %}
+                    data-caption=item_caption
+                    data-type=item_type %}
                 {% else %}
-                    <a href="{{ image_path | relative_url }}" data-gallery="{{ gallery_id }}" data-caption="{{ image_caption }}"></a>
+                    <a href="{{ item_path | relative_url }}" data-gallery="{{ gallery_id }}" data-caption="{{ item_caption }}" data-type="{{ item_type }}"></a>
                 {% endif %}
                 {% endfor %}
             </div>
@@ -57,3 +59,4 @@ layout: page
     {% endif %}
   </article>
 </div>
+

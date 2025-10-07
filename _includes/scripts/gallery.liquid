@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const modal = document.getElementById('gallery-modal');
   if (!modal) return;
 
-  const modalImage = document.getElementById('gallery-modal-image');
+  const modalContent = document.getElementById('gallery-modal-content');
   const modalCaption = document.getElementById('gallery-modal-caption');
   const closeBtn = document.querySelector('.gallery-close-btn');
   const prevBtn = document.querySelector('.gallery-prev-btn');
@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     galleryItems = Array.from(galleryLinks).map(a => ({
       src: a.href,
-      caption: a.dataset.caption || ''
+      caption: a.dataset.caption || '',
+      type: a.dataset.type || 'image'
     }));
 
-    const clickedImageSrc = link.href;
-    currentIndex = galleryItems.findIndex(item => item.src === clickedImageSrc);
+    currentIndex = galleryItems.findIndex(item => item.src === link.href);
     if (currentIndex === -1) currentIndex = 0;
 
     updateModalContent();
@@ -35,52 +35,80 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function updateModalContent() {
-    if (galleryItems.length > 0) {
-      const currentItem = galleryItems[currentIndex];
-      modalImage.src = currentItem.src;
-      modalCaption.textContent = currentItem.caption;
-      modalCaption.style.display = currentItem.caption ? 'block' : 'none';
+    if (galleryItems.length === 0) return;
+    
+    // Clear previous content
+    modalContent.innerHTML = '';
 
-      prevBtn.style.display = galleryItems.length > 1 ? 'block' : 'none';
-      nextBtn.style.display = galleryItems.length > 1 ? 'block' : 'none';
+    const currentItem = galleryItems[currentIndex];
+
+    // Create and append the correct element
+    if (currentItem.type === 'video') {
+      const video = document.createElement('video');
+      video.src = currentItem.src;
+      video.controls = true;
+      video.autoplay = true;
+      video.muted = true; // Autoplay often requires muted
+      video.loop = true;
+      video.playsInline = true;
+      modalContent.appendChild(video);
+    } else if (currentItem.type === 'iframe') {
+      const iframe = document.createElement('iframe');
+      iframe.src = currentItem.src;
+      iframe.frameBorder = '0';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      modalContent.appendChild(iframe);
+    } else { // Default to image
+      const img = document.createElement('img');
+      img.src = currentItem.src;
+      img.alt = currentItem.caption || 'Gallery Image';
+      modalContent.appendChild(img);
     }
+
+    // Update caption
+    modalCaption.textContent = currentItem.caption;
+    modalCaption.style.display = currentItem.caption ? 'block' : 'none';
+
+    // Show/hide nav buttons
+    prevBtn.style.display = galleryItems.length > 1 ? 'block' : 'none';
+    nextBtn.style.display = galleryItems.length > 1 ? 'block' : 'none';
   }
 
-  function showNextImage() {
+  function showNext() {
     currentIndex = (currentIndex + 1) % galleryItems.length;
     updateModalContent();
   }
 
-  function showPrevImage() {
+  function showPrev() {
     currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
     updateModalContent();
   }
 
   function closeModal() {
+    modalContent.innerHTML = ''; // Stop video/iframe playback
     modal.style.display = 'none';
     document.body.style.overflow = '';
-    galleryItems = [];
-    currentIndex = 0;
   }
 
-  nextBtn.addEventListener('click', showNextImage);
-  prevBtn.addEventListener('click', showPrevImage);
+  nextBtn.addEventListener('click', showNext);
+  prevBtn.addEventListener('click', showPrev);
   closeBtn.addEventListener('click', closeModal);
 
   modal.addEventListener('click', function(e) {
-    if (e.target.classList.contains('gallery-modal-overlay')) {
+    if (e.target === modal) {
       closeModal();
     }
   });
 
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && modal.style.display === 'flex') {
-      closeModal();
-    } else if (e.key === 'ArrowRight' && modal.style.display === 'flex' && galleryItems.length > 1) {
-      showNextImage();
-    } else if (e.key === 'ArrowLeft' && modal.style.display === 'flex' && galleryItems.length > 1) {
-      showPrevImage();
+    if (modal.style.display !== 'flex') return;
+    if (e.key === 'Escape') closeModal();
+    if (galleryItems.length > 1) {
+      if (e.key === 'ArrowRight') showNext();
+      if (e.key === 'ArrowLeft') showPrev();
     }
   });
 });
 </script>
+
