@@ -4,9 +4,8 @@ permalink: /resume/
 title: resume
 nav: true
 nav_order: 6
-cv_pdf: Taha_Shaheen_Resume.pdf
-# CV updated 17th Jan 2024
-description: Behold... my resume! You can also download a PDF version (updated October 3rd 2025).
+cv_pdf: https://drive.google.com/file/d/1fUKrgx7Xl1HkHN3Q4lfdb1U6A69SFu3R/view
+description: Behold... my resume! You can also view a more recent PDF version.
 toc:
   sidebar: left
 ---
