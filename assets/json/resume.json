@@ -2,7 +2,7 @@
   "basics": {
     "name": "Taha Shaheen",
     "email": "taha.shaheen@asu.edu",
-    "summary": "<strong>Teaching robots to collaborate with and adapt to imperfect human partners.</strong> <br></br> I am a Computer Science Ph.D. student at Arizona State University investigating how a mismatch between a human's understanding of domain dynamics affects the quality of their feedback, and how this in turn impacts an agent's reward learning. <br></br>My background includes the identification and prevention of misuse of teleoperated robots at Kyoto University, and engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology.<br></br><strong>Seeking a full-time, 12-week internship for Summer 2026.</strong>",
+    "summary": "<strong>Teaching robots to collaborate with and adapt to imperfect human partners.</strong> <br></br> I am a Computer Science Ph.D. student at Arizona State University investigating how a mismatch between a human's understanding of domain dynamics affects the quality of their feedback, and how this in turn impacts an agent's reward learning. <br></br>My background includes the identification and prevention of misuse of teleoperated robots at Kyoto University, and engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology.<br></br>",
     "Website": "<a href='https://tahashaheen.github.io/' target='_blank' rel='noopener noreferrer'>tahashaheen.github.io</a>",
     "LinkedIn": "<a href='https://www.linkedin.com/in/taha-shaheen' target='_blank' rel='noopener noreferrer'>linkedin.com/in/taha-shaheen</a>",
     "ASU": "<a href='https://search.asu.edu/profile/4752952' target='_blank' rel='noopener noreferrer'>search.asu.edu/profile/4752952</a>",
@@ -18,7 +18,7 @@
       "startDate": "2023-08",
       "endDate": "PRESENT",
       "courses": [
-        "Working with: Yu \"Tony\" Zhang, Stephen West, Heni Ben Amor",
+        "Co-advised by Yu \"Tony\" Zhang and Heni Ben Amor; working with Stephen West",
         "🏆 Jumpstart Research Grant",
         "🏆 Teaching Excellence Award (2025)"
       ]
@@ -52,18 +52,18 @@
   ],
   "publications": [
     {
+      "name": "Empirical Evidence and Analysis of a Critical Pitfall in Reward Learning from Human Feedback",
+      "publisher": "<strong>Taha Shaheen</strong>, Stephen G. West, and Yu Zhang. <em>Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026)</em>.",
+      "releaseDate": "2026-08",
+      "url": "https://par.nsf.gov/servlets/purl/10683099",
+      "summary": "<a href='https://par.nsf.gov/servlets/purl/10683099' target='_blank' rel='noopener noreferrer'>PDF</a> · <a href='https://2026.ijcai.org/accepted-papers/' target='_blank' rel='noopener noreferrer'>IJCAI-ECAI 2026</a>"
+    },
+    {
       "name": "Active Shadowing (ASD): Manipulating Perception of Robotic Behaviors via Implicit Virtual Communication",
       "publisher": "Andrew Boateng, Prakhar Bhartiya, <strong>Taha Shaheen</strong>, Yu Zhang. <em>arXiv preprint</em>.",
       "releaseDate": "2025-09",
       "url": "https://arxiv.org/abs/2407.01468",
       "summary": "<a href='https://arxiv.org/abs/2407.01468' target='_blank' rel='noopener noreferrer'>arXiv:2407.01468</a>"
-    },
-    {
-      "name": "Assigning Multi-Robot Tasks to Multitasking Robots",
-      "publisher": "Winston Smith, Andrew Boateng, <strong>Taha Shaheen</strong>, and Yu Zhang. <em>arXiv preprint</em>.",
-      "releaseDate": "2025-06",
-      "url": "https://arxiv.org/abs/2506.15032",
-      "summary": "<a href='https://arxiv.org/abs/2506.15032' target='_blank' rel='noopener noreferrer'>arXiv:2506.15032</a>"
     },
     {
       "name": "Investigation of Low-Moral Actions by Malicious Anonymous Operators of Avatar Robots",

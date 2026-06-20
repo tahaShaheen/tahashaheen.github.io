@@ -5,6 +5,21 @@
 @string{acm = {Association for Computing Machinery,}}
 
 
+@inproceedings{shaheen2026criticalpitfall,
+  abbr={IJCAI},
+  bibtex_show={true},
+  title={Empirical Evidence and Analysis of a Critical Pitfall in Reward Learning from Human Feedback},
+  author={Shaheen, Taha and West, Stephen G. and Zhang, Yu},
+  booktitle={Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026)},
+  year={2026},
+  month={august},
+  abstract = {Reward learning via human feedback is a crucial capability for beneficial AI. Current methods are built on decision-making theories that assume a matched dynamics model between the learning agent and the feedback provider. However, humans often form imperfect internal dynamics models, and their feedback reflects these misconceptions. While this relationship has long been hypothesised, its manifestation in sequential decision-making remains largely an assumption. Our work provides the first comprehensive empirical investigation of this relationship through a randomized controlled trial (N=211). We followed a two-stage design where we first initialized the participants' understanding of the dynamics in a grid-world navigation domain and then manipulated it using text-based instructions. Causal mediation analysis revealed that humans' internal models play a mediating role in feedback behaviour. We show that this relationship is invariant across visual contexts and is robust to three common feedback types: pairwise preferences, trajectory corrections, and off-switch interventions. These findings confirm a critical limitation of current reward learning methods and establish the missing psychological foundation for approaches that incorporate dynamics understanding.},
+  selected = {true},
+  url = {https://par.nsf.gov/servlets/purl/10683099},
+  read = {https://par.nsf.gov/servlets/purl/10683099},
+  website = {/projects/critical_pitfall_reward_learning},
+}
+
 @article{boateng2024active,
   abbr={arXiv},
   bibtex_show={true},
@@ -12,23 +27,10 @@
   author={Boateng, Andrew and Bhartiya, Prakhar and Shaheen, Taha and Zhang, Yu},
   journal={arXiv preprint arXiv:2407.01468},
   year={2025},
-  abstract = {Explicit communication is often valued for its directness in presenting information but requires attention during exchange, resulting in cognitive interruptions. On the other hand, implicit communication contributes to tacit and smooth interaction, making it more suitable for teaming, but requires inference for interpretation. This paper studies a novel type of implicit visual communication (IVC) using shadows via visual projection with augmented reality, referred to as active shadowing (ASD). Prior IVC methods, such as legible motion, are often used to influence the perception of robot behavior to make it more understandable. They often require changing the physical robot behavior, resulting in suboptimality. In our work, we investigate how ASD can be used to achieve similar effects without losing optimality. Our evaluations with user studies demonstrates that ASD can effectively creates ''illusions'' that maintain optimal physical behavior without compromising its understandability. We also show that ASD can be more informative than other explicit communication methods, and examine the conditions under which ASD becomes less effective.}, 
-  selected = {true},
+  abstract = {Explicit communication is often valued for its directness in presenting information but requires attention during exchange, resulting in cognitive interruptions. On the other hand, implicit communication contributes to tacit and smooth interaction, making it more suitable for teaming, but requires inference for interpretation. This paper studies a novel type of implicit visual communication (IVC) using shadows via visual projection with augmented reality, referred to as active shadowing (ASD). Prior IVC methods, such as legible motion, are often used to influence the perception of robot behavior to make it more understandable. They often require changing the physical robot behavior, resulting in suboptimality. In our work, we investigate how ASD can be used to achieve similar effects without losing optimality. Our evaluations with user studies demonstrates that ASD can effectively creates ''illusions'' that maintain optimal physical behavior without compromising its understandability. We also show that ASD can be more informative than other explicit communication methods, and examine the conditions under which ASD becomes less effective.},
+  selected = {false},
   url = {https://arxiv.org/abs/2407.01468},
   read = {https://arxiv.org/abs/2407.01468},
-}
-
-@article{smith2025assigning,
-  title={Assigning Multi-Robot Tasks to Multitasking Robots},
-  author={Smith, Winston and Boateng, Andrew and Shaheen, Taha and Zhang, Yu},
-  journal={arXiv preprint arXiv:2506.15032},
-  year={2025},
-  abbr={arXiv},
-  abstract = {One simplifying assumption in existing and well-performing task allocation methods is that the robots are single-tasking: each robot operates on a single task at any given time. While this assumption is harmless to make in some situations, it can be inefficient or even infeasible in others. In this paper, we consider assigning multi-robot tasks to multitasking robots. The key contribution is a novel task allocation framework that incorporates the consideration of physical constraints introduced by multitasking. This is in contrast to the existing work where such constraints are largely ignored. After formulating the problem, we propose a compilation to weighted MAX-SAT, which allows us to leverage existing solvers for a solution. A more efficient greedy heuristic is then introduced. For evaluation, we first compare our methods with a modern baseline that is efficient for single-tasking robots to validate the benefits of multitasking in synthetic domains. Then, using a site-clearing scenario in simulation, we further illustrate the complex task interaction considered by the multitasking robots in our approach to demonstrate its performance. Finally, we demonstrate a physical experiment to show how multitasking enabled by our approach can benefit task efficiency in a realistic setting.},
-  selected = {true},
-  url = {https://arxiv.org/abs/2506.15032},
-  read = {https://arxiv.org/abs/2506.15032},
-  bibtex_show={true},
 }
 
 @article{shaheen2024lowmoralactions,

@@ -48,6 +48,19 @@ table.table a {
   }
 }
 
+.intro-hover-links {
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+  }
+}
+
 .table-dark {
   background-color: transparent;
   &.table-bordered {
@@ -704,6 +717,7 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-style: italic;
       }
 
       .author {
