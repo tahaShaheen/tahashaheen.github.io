@@ -10,7 +10,7 @@ related_publications: true
 permalink: /projects/critical_pitfall_reward_learning
 buttons:
   - text: "Read Paper"
-    url: "https://par.nsf.gov/servlets/purl/10683099"
+    url: "https://ijcai-preprints.s3.us-west-1.amazonaws.com/2026/2656.pdf"
   - text: "Experience the Study Games"
     url: "https://elfie-cliff-walking.onrender.com/"
   - text: "Code and Data"
