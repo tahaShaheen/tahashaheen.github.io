@@ -6,17 +6,55 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
-    {% if page.button %}
-      <div class="mb-3">
-        <a href="{{ page.button.url }}" class="btn btn-sm z-depth-0 w-100 fw-bold" role="button" target="_blank" style="background-color: var(--global-theme-color); color: white; border-color: var(--global-theme-color);">{{ page.button.text }}</a>
+    {% if page.button or page.buttons %}
+      <div class="page-top-actions">
+        {% if page.button %}
+          <a href="{{ page.button.url }}" class="page-top-action" role="button" target="_blank">
+            {% assign button_icon = page.button.icon %}
+            {% unless button_icon %}
+              {% assign button_text = page.button.text | downcase %}
+              {% if button_text contains 'paper' %}
+                {% assign button_icon = 'fa-regular fa-file-lines' %}
+              {% elsif button_text contains 'poster' %}
+                {% assign button_icon = 'fa-regular fa-image' %}
+              {% elsif button_text contains 'presentation' %}
+                {% assign button_icon = 'fa-solid fa-display' %}
+              {% elsif button_text contains 'game' %}
+                {% assign button_icon = 'fa-solid fa-gamepad' %}
+              {% elsif button_text contains 'code' or button_text contains 'data' %}
+                {% assign button_icon = 'fa-solid fa-code' %}
+              {% endif %}
+            {% endunless %}
+            {% if button_icon %}
+              <i class="{{ button_icon }} page-top-action-icon" aria-hidden="true"></i>
+            {% endif %}
+            <span class="page-top-action-text">{{ page.button.text }}</span>
+          </a>
+        {% endif %}
+        {% for button in page.buttons %}
+          <a href="{{ button.url }}" class="page-top-action" role="button" target="_blank">
+            {% assign button_icon = button.icon %}
+            {% unless button_icon %}
+              {% assign button_text = button.text | downcase %}
+              {% if button_text contains 'paper' %}
+                {% assign button_icon = 'fa-regular fa-file-lines' %}
+              {% elsif button_text contains 'poster' %}
+                {% assign button_icon = 'fa-regular fa-image' %}
+              {% elsif button_text contains 'presentation' %}
+                {% assign button_icon = 'fa-solid fa-display' %}
+              {% elsif button_text contains 'game' %}
+                {% assign button_icon = 'fa-solid fa-gamepad' %}
+              {% elsif button_text contains 'code' or button_text contains 'data' %}
+                {% assign button_icon = 'fa-solid fa-code' %}
+              {% endif %}
+            {% endunless %}
+            {% if button_icon %}
+              <i class="{{ button_icon }} page-top-action-icon" aria-hidden="true"></i>
+            {% endif %}
+            <span class="page-top-action-text">{{ button.text }}</span>
+          </a>
+        {% endfor %}
       </div>
-    {% endif %}
-    {% if page.buttons %}
-      {% for button in page.buttons %}
-        <div class="mb-3">
-          <a href="{{ button.url }}" class="btn btn-sm z-depth-0 w-100 fw-bold" role="button" target="_blank" style="background-color: var(--global-theme-color); color: white; border-color: var(--global-theme-color);">{{ button.text }}</a>
-        </div>
-      {% endfor %}
     {% endif %}
   </header>
 

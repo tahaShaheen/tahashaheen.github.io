@@ -20,6 +20,116 @@
   website = {/projects/critical_pitfall_reward_learning},
 }
 
+@inproceedings{NgAlgorithmsForInverseReinforcementLearning2000,
+  author    = {Andrew Y. Ng and Stuart Russel},
+  booktitle = {International Conference on Machine Learning},
+  month     = {6},
+  title     = {Algorithms for Inverse Reinforcement Learning},
+  year      = {2000}
+}
+
+@article{WirthASurveyOfPreferenceBasedReinforcementLearningMethods2017,
+  abstract = {Reinforcement learning (RL) techniques optimize the accumulated long-term reward of a suitably chosen reward function. However, designing such a reward function often requires a lot of task-specific prior knowledge. The designer needs to consider different objectives that do not only influence the learned behavior but also the learning progress. To alleviate these issues, preference-based reinforcement learning algorithms (PbRL) have been proposed that can directly learn from an expert's preferences instead of a hand-designed numeric reward. PbRL has gained traction in recent years due to its ability to resolve the reward shaping problem, its ability to learn from non numeric rewards and the possibility to reduce the dependence on expert knowledge. We provide a unified framework for PbRL that describes the task formally and points out the different design principles that affect the evaluation task for the human as well as the computational complexity. The design principles include the type of feedback that is assumed, the representation that is learned to capture the preferences, the optimization problem that has to be solved as well as how the exploration/exploitation problem is tackled. Furthermore, we point out shortcomings of current algorithms, propose open research questions and briefly survey practical tasks that have been solved using PbRL.},
+  author   = {Christian Wirth and Riad Akrour and Gerhard Neumann and Johannes F{\"u}rnkranz},
+  issn     = {1533-7928},
+  issue    = {136},
+  journal  = {Journal of Machine Learning Research},
+  keywords = {Markov Decision Process,Policy Search,Preference Learning,Preference-based Reinforce-ment Learning,Qualitative Feedback,Reinforcement Learning,Temporal Difference Learning},
+  pages    = {1-46},
+  title    = {A Survey of Preference-Based Reinforcement Learning Methods},
+  volume   = {18},
+  url      = {http://jmlr.org/papers/v18/16-634.html},
+  year     = {2017}
+}
+
+@inproceedings{ChristianoDeepReinforcementLearningFromHumanPreferences2017,
+  abstract = {For sophisticated reinforcement learning (RL) systems to interact usefully with real-world environments, we need to communicate complex goals to these systems. In this work, we explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than 1% of our agent's interactions with the environment. This reduces the cost of human oversight far enough that it can be practically applied to state-of-the-art RL systems. To demonstrate the flexibility of our approach, we show that we can successfully train complex novel behaviors with about an hour of human time. These behaviors and environments are considerably more complex than any which have been previously learned from human feedback.},
+  author   = {Paul F Christiano and Jan Leike and Tom B Brown and Miljan Martic and Shane Legg and Dario Amodei},
+  journal  = {Advances in Neural Information Processing Systems},
+  title    = {Deep Reinforcement Learning from Human Preferences},
+  volume   = {30},
+  year     = {2017},
+  URL      = {https://doi.org/10.48550/arXiv.1706.03741}
+}
+
+@inproceedings{HadfieldmenellOffSwitchGame2017,
+  author = {Hadfield-Menell, Dylan and Dragan, Anca and Abbeel, Pieter and Russell, Stuart},
+  title = {The off-switch game},
+  year = {2017},
+  isbn = {9780999241103},
+  publisher = {AAAI Press},
+  abstract = {It is clear that one of the primary tools we can use to mitigate the potential risk from a misbehaving AI system is the ability to turn the system off. As the capabilities of AI systems improve, it is important to ensure that such systems do not adopt subgoals that prevent a human from switching them off. This is a challenge because many formulations of rational agents create strong incentives for self-preservation. This is not caused by a built-in instinct, but because a rational agent will maximize expected utility and cannot achieve whatever objective it has been given if it is dead. Our goal is to study the incentives an agent has to allow itself to be switched off. We analyze a simple game between a human H and a robot R, where H can press R's off switch but R can disable the off switch. A traditional agent takes its reward function for granted: we show that such agents have an incentive to disable the off switch, except in the special case where H is perfectly rational. Our key insight is that for R to want to preserve its off switch, it needs to be uncertain about the utility associated with the outcome, and to treat H's actions as important observations about that utility. (R also has no incentive to switch  itself  off in this setting.) We conclude that giving machines an appropriate level of uncertainty about their objectives leads to safer designs, and we argue that this setting is a useful generalization of the classical AI paradigm of rational agents.},
+  booktitle = {Proceedings of the 26th International Joint Conference on Artificial Intelligence},
+  pages = {220-227},
+  numpages = {8},
+  location = {Melbourne, Australia},
+  series = {IJCAI'17}
+}
+
+@inproceedings{GongWhatIsItYouReallyWantOfMe2020,
+  abstract  = {Reward learning as a method for inferring human intent and preferences has been studied extensively. Prior approaches make an implicit assumption that the human maintains a correct belief about the robot's domain dynamics. However, this may not always hold since the human's belief may be biased, which can ultimately lead to a misguided estimation of the human's intent and preferences, which is often derived from human feedback on the robot's behaviors. In this paper, we remove this restrictive assumption by considering that the human may have an inaccurate understanding of the robot. We propose a method called Generalized Reward Learning with biased beliefs about domain dynamics (GeReL) to infer both the reward function and human's belief about the robot in a Bayesian setting based on human ratings. Due to the complex forms of the posteriors, we formulate it as a variational inference problem to infer the posteriors of the parameters that govern the reward function and human's belief about the robot simultaneously. We evaluate our method in a simulated domain and with a user study where the user has a bias based on the robot's appearances. The results show that our method can recover the true human preferences while subject to such biased beliefs, in contrast to prior approaches that could have misinterpreted them completely.},
+  author    = {Ze Gong and Yu Zhang},
+  doi       = {10.1609/AAAI.V34I03.5630},
+  isbn      = {9781577358350},
+  issn      = {2374-3468},
+  issue     = {03},
+  journal   = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  keywords  = {Human-AI Collaboration},
+  month     = {4},
+  pages     = {2485-2492},
+  publisher = {AAAI press},
+  title     = {What Is It You Really Want of Me? Generalized Reward Learning with Biased Beliefs about Domain Dynamics},
+  volume    = {34},
+  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/5630},
+  year      = {2020}
+}
+
+@article{KaufmannASurveyOfReinforcementLearningFromHumanFeedback2023,
+  title = {A {{Survey}} of {{Reinforcement Learning}} from {{Human Feedback}}},
+  author = {Kaufmann, Timo and Weng, Paul and Bengs, Viktor and H{\"u}llermeier, Eyke},
+  year = 2024,
+  month = jun,
+  journal = {Transactions on Machine Learning Research},
+  issn = {2835-8856},
+  urldate = {2026-01-20},
+  abstract = {Reinforcement learning from human feedback (RLHF) is a variant of reinforcement learning (RL) that learns from human feedback instead of relying on an engineered reward function. Building on prior work on the related setting of preference-based reinforcement learning (PbRL), it stands at the intersection of artificial intelligence and human-computer interaction. This positioning provides a promising approach to enhance the performance and adaptability of intelligent systems while also improving the alignment of their objectives with human values. The success in training large language models (LLMs) has impressively demonstrated this potential in recent years, where RLHF has played a decisive role in directing the model's capabilities towards human objectives. This article provides an overview of the fundamentals of RLHF, exploring how RL agents interact with human feedback. While recent focus has been on RLHF for LLMs, our survey covers the technique across multiple domains. We provide our most comprehensive coverage in control and robotics, where many fundamental techniques originate, alongside a dedicated LLM section. We examine the core principles that underpin RLHF, how algorithms and human feedback work together, and discuss the main research trends in the field. Our goal is to give researchers and practitioners a clear understanding of this rapidly growing field.},
+  langid = {english}
+}
+
+@inproceedings{BajcsyLearningRobotObjectives2017,
+  title = {Learning {{Robot Objectives}} from {{Physical Human Interaction}}},
+  booktitle = {Proceedings of the 1st {{Annual Conference}} on {{Robot Learning}}},
+  author = {Bajcsy, Andrea and Losey, Dylan P. and O'Malley, Marcia K. and Dragan, Anca D.},
+  year = 2017,
+  month = oct,
+  pages = {217--226},
+  publisher = {PMLR},
+  issn = {2640-3498},
+  urldate = {2026-01-13},
+  abstract = {When humans and robots work in close proximity, physical interaction is inevitable. Traditionally, robots treat physical interaction as a disturbance, and resume their original behavior after the interaction ends. In contrast, we argue that physical human interaction is informative: it is useful information about how the robot should be doing its task. We formalize learning from such interactions as a dynamical system in which the task objective has parameters that are part of the hidden state, and physical human interactions are observations about these parameters. We derive an online approximation of the robot's optimal policy in this system, and test it in a user study. The results suggest that learning from physical interaction leads to better robot task performance with less human effort.}
+}
+
+@article{ArmstrongOccamsRazorIsInsufficientToInferThePreferencesOfIrrationalAgents2018,
+  title   = {Occam's Razor Is Insufficient to Infer the Preferences of Irrational Agents},
+  author  = {Armstrong, Stuart and Mindermann, S{\"o}ren},
+  year    = {2018},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {31},
+  urldate = {2024-05-31},
+  abstract = {Inverse reinforcement learning (IRL) attempts to infer human rewards or preferences from observed behavior. Since human planning systematically deviates from rationality, several approaches have been tried to account for specific human shortcomings. However, the general problem of inferring the reward function of an agent of unknown rationality has received little attention. Unlike the well-known ambiguity problems in IRL, this one is practically relevant but cannot be resolved by observing the agent's policy in enough environments. This paper shows (1) that a No Free Lunch result implies it is impossible to uniquely decompose a policy into a planning algorithm and reward function, and (2) that even with a reasonable simplicity prior/Occam's razor on the set of decompositions, we cannot distinguish between the true decomposition and others that lead to high regret. To address this, we need simple 'normative' assumptions, which cannot be deduced exclusively from observations.}
+}
+
+@inproceedings{VianoRobustInverseReinforcementLearningUnderTransitionDynamicsMismatch2021,
+  title = {Robust {{Inverse Reinforcement Learning}} under {{Transition Dynamics Mismatch}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Viano, Luca and Huang, Yu-Ting and Kamalaruban, Parameswaran and Weller, Adrian and Cevher, Volkan},
+  year = 2021,
+  volume = {34},
+  pages = {25917--25931},
+  publisher = {Curran Associates, Inc.},
+  urldate = {2026-01-20}
+}
+
 @article{boateng2024active,
   abbr={arXiv},
   bibtex_show={true},

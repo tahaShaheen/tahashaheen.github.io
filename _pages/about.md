@@ -24,7 +24,6 @@ social: false # includes social icons at the bottom of the page
 <!-- I am a Ph.D. student in Computer Science at Arizona State University working on human-robot collaboration associated with the Cooperative Robotic Systems Lab. I have over 4 years of research experience with a background in engineering low-cost socially assistive robots for autism therapy at NED University of Engineering and Technology, prevention of misuse of teleoperated robots at Kyoto University, studies involving human-robot interaction, and preference-based reinforcement learning. -->
 
 Hey there! I am a Computer Science Ph.D. student and a researcher at [Arizona State University](https://search.asu.edu/profile/4752952), co-advised by [Yu "Tony" Zhang](https://scholar.google.com/citations?user=n0uRPLgAAAAJ&hl=en&oi=ao) and [Heni Ben Amor](https://scholar.google.com/citations?user=UvUDb-kAAAAJ&hl=en&oi=sra), and working with [Stephen West](https://scholar.google.com/citations?user=SkMe3SEAAAAJ&hl=en&oi=sra).
-{: .intro-hover-links }
 
 Currently I am investigating how a mismatch between a human's understanding of the domain dynamics affects the quality of their feedback, and how this in turn impacts an agent's reward learning.
 

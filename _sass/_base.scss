@@ -860,6 +860,53 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
+  .page-top-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 0.75rem;
+    margin: 1.5rem 0 2.25rem;
+  }
+
+  .page-top-action {
+    align-items: center;
+    border: 1px solid var(--global-divider-color);
+    border-left: 0.25rem solid var(--global-theme-color);
+    border-radius: 0.375rem;
+    color: var(--global-text-color);
+    display: flex;
+    font-size: 0.86rem;
+    font-weight: 600;
+    gap: 0.5rem;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 2.5rem;
+    padding: 0.55rem 0.8rem;
+    text-align: center;
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      color: var(--global-bg-color);
+      text-decoration: none;
+    }
+  }
+
+  .page-top-action-icon {
+    color: var(--global-theme-color);
+    flex: 0 0 auto;
+    font-size: 0.95rem;
+    transition: color 0.15s ease;
+  }
+
+  .page-top-action:hover .page-top-action-icon {
+    color: var(--global-bg-color);
+  }
+
+  .page-top-action-text {
+    overflow-wrap: anywhere;
+  }
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;

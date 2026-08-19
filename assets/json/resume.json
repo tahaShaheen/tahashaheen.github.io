@@ -75,6 +75,13 @@
   ],
   "presentations": [
     {
+      "name": "IJCAI-ECAI 2026",
+      "location": "Bremen, Germany",
+      "url": "/projects/critical_pitfall_reward_learning",
+      "startDate": "2026-08",
+      "summary": "Presented empirical evidence and analysis of a critical pitfall in reward learning from human feedback. <a href='/assets/pdf/projects/work/2026_ijcai_reward_learning/ijcai26_poster.pdf' target='_blank' rel='noopener noreferrer'>Poster</a> · <a href='/assets/pdf/projects/work/2026_ijcai_reward_learning/ijcai26_presentation.pptx' target='_blank' rel='noopener noreferrer'>Presentation</a>"
+    },
+    {
       "name": "Southwest Robotics Symposium",
       "location": "Tempe, AZ, USA",
       "url": "https://swrobotics.engineering.asu.edu/",
