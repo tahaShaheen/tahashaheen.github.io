@@ -2,7 +2,7 @@
 layout: page
 title: Critical Pitfall in Reward Learning from Human Feedback
 description: On how dynamics misconceptions impact human feedback
-img: assets/img/projects/work/2026_ijcai_reward_learning/elfie.png
+img: assets/img/projects/work/2026_ijcai_reward_learning/T_correct_2.png
 importance: 0
 category: work
 display: true
