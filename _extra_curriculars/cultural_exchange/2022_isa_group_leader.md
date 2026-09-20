@@ -39,6 +39,6 @@ permalink: /extra_curriculars/cultural_exchange/isa_group_leader
 
 <div class="row">
 <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/extra_curriculars/cultural_exchange/2022_isa_group_leader/isa_group_leader_hiroshima.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true controls=true caption="Group leaders and students having fun during a break at a program in Hiroshima." %}
+        {% include video.liquid path="assets/video/extra_curriculars/cultural_exchange/2022_isa_group_leader/isa_group_leader_hiroshima.mp4" class="img-fluid w-100 rounded z-depth-1" autoplay=true loop=true muted=true controls=true preload="auto" cache_bust=true poster="assets/img/extra_curriculars/cultural_exchange/2022_isa_group_leader/cover.jpg" caption="Group leaders and students having fun during a break at a program in Hiroshima." %}
     </div>
 </div>

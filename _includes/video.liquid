@@ -9,13 +9,9 @@
       {% endif %}
       {% if include.width %}
         width="{{ include.width }}"
-      {% else %}
-        width="auto"
       {% endif %}
       {% if include.height %}
         height="{{ include.height }}"
-      {% else %}
-        height="auto"
       {% endif %}
       {% if include['min-width'] %}
         min-width="{{ include.min-width }}"
@@ -47,10 +43,12 @@
       {% if include.muted %}
         muted
       {% endif %}
+      preload="{{ include.preload | default: 'metadata' }}"
       {% if include.poster %}
-        poster="{{ include.poster }}"
+        poster="{{ include.poster | relative_url }}"
       {% endif %}
-    />
+    >
+    </video>
 
   {% else %}
     <div class="embed-responsive embed-responsive-16by9">
