@@ -10,7 +10,7 @@ related_publications: true
 permalink: /projects/critical_pitfall_reward_learning
 buttons:
   - text: "Read Paper"
-    url: "https://ijcai-preprints.s3.us-west-1.amazonaws.com/2026/2656.pdf"
+    url: "https://doi.org/10.24963/ijcai.2026/37"
   - text: "View Poster"
     url: "/assets/pdf/projects/work/2026_ijcai_reward_learning/ijcai26_poster.pdf"
   - text: "Download Presentation"

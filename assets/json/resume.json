@@ -53,10 +53,10 @@
   "publications": [
     {
       "name": "Empirical Evidence and Analysis of a Critical Pitfall in Reward Learning from Human Feedback",
-      "publisher": "<strong>Taha Shaheen</strong>, Stephen G. West, and Yu Zhang. <em>Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026)</em>.",
+      "publisher": "<strong>Taha Shaheen</strong>, Stephen G. West, and Yu Zhang. <em>Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence (IJCAI-26)</em>, pp. 323-331. Main Track.",
       "releaseDate": "2026-08",
-      "url": "https://ijcai-preprints.s3.us-west-1.amazonaws.com/2026/2656.pdf",
-      "summary": "<a href='https://ijcai-preprints.s3.us-west-1.amazonaws.com/2026/2656.pdf' target='_blank' rel='noopener noreferrer'>PDF</a> · <a href='https://2026.ijcai.org/accepted-papers/' target='_blank' rel='noopener noreferrer'>IJCAI-ECAI 2026</a>"
+      "url": "https://doi.org/10.24963/ijcai.2026/37",
+      "summary": "<a href='https://doi.org/10.24963/ijcai.2026/37' target='_blank' rel='noopener noreferrer'>DOI</a>"
     },
     {
       "name": "Active Shadowing (ASD): Manipulating Perception of Robotic Behaviors via Implicit Virtual Communication",
