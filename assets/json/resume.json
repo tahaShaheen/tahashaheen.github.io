@@ -56,7 +56,7 @@
       "publisher": "<strong>Taha Shaheen</strong>, Stephen G. West, and Yu Zhang. <em>Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence (IJCAI-26)</em>, pp. 323-331. Main Track.",
       "releaseDate": "2026-08",
       "url": "https://doi.org/10.24963/ijcai.2026/37",
-      "summary": "<a href='https://doi.org/10.24963/ijcai.2026/37' target='_blank' rel='noopener noreferrer'>DOI</a>"
+      "summary": "<a href='https://doi.org/10.24963/ijcai.2026/37' target='_blank' rel='noopener noreferrer'>https://doi.org/10.24963/ijcai.2026/37</a> · <a href='/projects/critical_pitfall_reward_learning' target='_blank' rel='noopener noreferrer'>Website</a>"
     },
     {
       "name": "Active Shadowing (ASD): Manipulating Perception of Robotic Behaviors via Implicit Virtual Communication",
@@ -70,16 +70,16 @@
       "publisher": "<strong>Taha Shaheen</strong>, Dražen Brščić, and Takayuki Kanda. <em>ACM Transactions on Human-Robot Interaction</em>.",
       "releaseDate": "2024-12",
       "url": "https://doi.org/10.1145/3696466",
-      "summary": "<a href='https://doi.org/10.1145/3696466' target='_blank' rel='noopener noreferrer'>doi.org/10.1145/3696466</a>"
+      "summary": "<a href='https://doi.org/10.1145/3696466' target='_blank' rel='noopener noreferrer'>doi.org/10.1145/3696466</a> · <a href='/projects/low_moral_actions' target='_blank' rel='noopener noreferrer'>Website</a>"
     }
   ],
   "presentations": [
     {
       "name": "IJCAI-ECAI 2026",
       "location": "Bremen, Germany",
-      "url": "/projects/critical_pitfall_reward_learning",
+      "url": "https://2026.ijcai.org/",
       "startDate": "2026-08",
-      "summary": "Presented empirical evidence and analysis of a critical pitfall in reward learning from human feedback. <a href='/assets/pdf/projects/work/2026_ijcai_reward_learning/ijcai26_poster.pdf' target='_blank' rel='noopener noreferrer'>Poster</a> · <a href='/assets/pdf/projects/work/2026_ijcai_reward_learning/ijcai26_presentation.pptx' target='_blank' rel='noopener noreferrer'>Presentation</a>"
+      "summary": "Presented empirical evidence and analysis of a critical pitfall in reward learning from human feedback. <a href='/assets/pdf/projects/work/2026_ijcai_reward_learning/ijcai26_poster.pdf' target='_blank' rel='noopener noreferrer'>Poster</a> · <a href='/assets/pdf/projects/work/2026_ijcai_reward_learning/ijcai26_presentation.pptx' target='_blank' rel='noopener noreferrer'>Presentation</a> · <a href='/projects/critical_pitfall_reward_learning' target='_blank' rel='noopener noreferrer'>Website</a>"
     },
     {
       "name": "Southwest Robotics Symposium",
@@ -105,6 +105,7 @@
     {
       "name": "The 2nd Avatar Symbiotic Society Conference",
       "location": "Osaka, Japan",
+      "url": "https://sisrec.otri.osaka-u.ac.jp/en/the-2nd-international-symposium-on-symbiotic-intelligent-systems/",
       "startDate": "2023-01",
       "summary": "Presented poster on my Masters research on the Low-moral Actions of Malicious Anonymous Operators of Avatar Robots."
     }

@@ -7,9 +7,11 @@ importance: 1
 category: work
 related_publications: true
 permalink: /projects/low_moral_actions
-button:
-  text: "Read Paper"
-  url: "https://doi.org/10.1145/3696466"
+buttons:
+  - text: "Read Paper"
+    url: "https://doi.org/10.1145/3696466"
+  - text: "View Poster"
+    url: "/assets/pdf/projects/work/2023_low_moral_actions/southwest_symposium_poster.pdf"
 ---
 
 In {% cite shaheen2024lowmoralactions %}, we created a list of what low-moral actions were possible through avatar robots when operated by someone malicious and anonymous. We also suggested prevention mechanisms.
