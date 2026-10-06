@@ -59,7 +59,7 @@
       "summary": "<a href='https://doi.org/10.24963/ijcai.2026/37' target='_blank' rel='noopener noreferrer'>https://doi.org/10.24963/ijcai.2026/37</a> · <a href='/projects/critical_pitfall_reward_learning' target='_blank' rel='noopener noreferrer'>Website</a>"
     },
     {
-      "name": "Active Shadowing (ASD): Manipulating Perception of Robotic Behaviors via Implicit Virtual Communication",
+      "name": "Shadow-Coupled Perceptual Enhancement (SCoPE): Manipulating Perception of Robotic Behaviors via Implicit Visual Communication",
       "publisher": "Andrew Boateng, Prakhar Bhartiya, <strong>Taha Shaheen</strong>, Yu Zhang. <em>arXiv preprint</em>.",
       "releaseDate": "2025-09",
       "url": "https://arxiv.org/abs/2407.01468",
@@ -176,12 +176,12 @@
   ],
   "projects": [
     {
-      "name": "Active Shadowing (ASD) for Implicit HRI Communication",
+      "name": "Shadow-Coupled Perceptual Enhancement (SCoPE) for Implicit HRI Communication",
       "startDate": "2025",
       "summary": "",
       "url": "https://arxiv.org/abs/2407.01468",
       "highlights": [
-        "Contributed to the development of Active Shadowing, a novel system using Augmented Reality shadows to enhance robot collaboration without sacrificing motion optimality.",
+        "Contributed to the development of SCoPE, a novel system using Augmented Reality shadows to enhance robot collaboration without sacrificing motion optimality.",
         "Developed the core robot control software, precisely choreographing a UR5 arm's movements to seamlessly integrate with a predictive Augmented Reality shadow projected via a HoloLens.",
         "Co-designed the 23-participant user study that validated the system, proving via t-test (p<0.05) that the AR shadow improved human-robot safety scores by over 50% compared to explicit communication."
       ]

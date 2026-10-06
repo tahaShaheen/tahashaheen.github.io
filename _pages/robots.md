@@ -11,7 +11,7 @@ profiles:
     content: The UR5 is a super fun robot to work with. A lot of projects at the [Cooperative Robotics Systems Lab](https://crslabasu.github.io/CRS.html) and the [Interactive Robotics Lab](https://interactive-robotics.engineering.asu.edu/) use the UR5.
     images:
     - url: /assets/img/robots/ur5/shadow.jpg
-      caption: "Helping a colleague with their Active Shadowing project."
+      caption: "Helping a colleague with their SCoPE project."
     - url: /assets/video/robots/ur5/pendulum.mp4 # for local video
       type: video
       caption: "Working on the LLM as a Model Optimizer in Model Predictive Control project."
